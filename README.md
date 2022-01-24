@@ -2,9 +2,9 @@
 
 ## The problem
 
-Pipefy is a very useful platform for project management and workflow automation, and as such, it can provide very useful information on each process' performance. A process (denominated pipe in the platform) is defined by cards, that host a variety of fields, and phases, in which cards can move between. After hosting and defining such processes in the platform, obtaining their data in a fast and automated way is a really big step towards building real-time reports for insight generation among the business areas, which can then be done with Data Visualization tools such as Powerbi, Tableau or Metabase.
+Pipefy is a very useful platform for project management and workflow automation, and as such, it can provide very useful information on each process' performance. A process (denominated pipe in the platform) is defined by cards, that host a variety of fields, and phases, in which cards can move between. After hosting and defining such processes in the platform, obtaining their data in a fast and automated way is a really big step towards building real-time reports for insight generation among the business areas, which can then be done with Data Visualization tools such as PowerBI, Tableau or Metabase.
 
-This API retrieves data using their Graph's query language, applies processing to better prepare data for correct database insertion and finally checks if there is an existing entry in the database, so that it either updates existing data or inserts new data.
+This API retrieves data using their Graph's query language, applies processing to prepare data for correct database insertion and finally checks if there is an existing entry in the database, so that it either updates existing data or inserts new data.
 It also builds a phase history log with each phase's first entrance date, so that later down the data pipeline other apps can analyze each process' metrics with both phase and time dimensions.
 
 ## References and Tools Used
